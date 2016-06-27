@@ -97,12 +97,9 @@
 		30C5343A1C89B72100235AA7 /* timer */ = {
 			isa = PBXGroup;
 			children = (
-				30C5343B1C89B72100235AA7 /* AppDelegate.swift */,
 				30C5343D1C89B72100235AA7 /* ViewController.swift */,
 				30C5343F1C89B72100235AA7 /* Main.storyboard */,
-				30C534421C89B72100235AA7 /* Assets.xcassets */,
-				30C534441C89B72100235AA7 /* LaunchScreen.storyboard */,
-				30C534471C89B72100235AA7 /* Info.plist */,
+				30EF5EBB1D1936D200290621 /* Supporting Files */,
 			);
 			path = timer;
 			sourceTree = "<group>";
@@ -123,6 +120,17 @@
 				30C5345D1C89B72100235AA7 /* Info.plist */,
 			);
 			path = timerUITests;
+			sourceTree = "<group>";
+		};
+		30EF5EBB1D1936D200290621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30C5343B1C89B72100235AA7 /* AppDelegate.swift */,
+				30C534421C89B72100235AA7 /* Assets.xcassets */,
+				30C534441C89B72100235AA7 /* LaunchScreen.storyboard */,
+				30C534471C89B72100235AA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,6 +493,7 @@
 				30C534621C89B72100235AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30C534631C89B72100235AA7 /* Build configuration list for PBXNativeTarget "timerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				30C534651C89B72100235AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30C534661C89B72100235AA7 /* Build configuration list for PBXNativeTarget "timerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				30C534681C89B72100235AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
